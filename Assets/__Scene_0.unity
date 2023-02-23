@@ -174,7 +174,7 @@ MonoBehaviour:
   speed: 30
   rollMult: -45
   pitchMult: 30
-  shieldLevel: 1
+  _shieldLevel: 1
 --- !u!54 &255443833
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -529,6 +529,7 @@ MonoBehaviour:
   - {fileID: 5688117830817157872, guid: 01ddbe1efa5b03447aab7f4228e6d233, type: 3}
   enemySpawnPerSecond: 0.5
   enemyInsetDefault: 1.5
+  gameRestartDelay: 2
 --- !u!1 &1521347238
 GameObject:
   m_ObjectHideFlags: 0
